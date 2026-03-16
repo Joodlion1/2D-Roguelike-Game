@@ -2,6 +2,9 @@
 
 A turn-based roguelike game built with Unity 6, following the Unity Learn "Create a 2D Roguelike Game" course and extended with additional features.
 
+## Unity play
+https://play.unity.com/en/games/f1e2f15d-5b66-46b2-8512-253f7290d482/2d-roguelike-game
+
 ## Features
 
 - Procedurally generated 8x8 dungeon with random ground/wall tiles
