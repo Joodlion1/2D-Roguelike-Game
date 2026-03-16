@@ -17,14 +17,6 @@ https://play.unity.com/en/games/f1e2f15d-5b66-46b2-8512-253f7290d482/2d-roguelik
 - Sprite-based animations (Idle, Walk, Attack) for player and enemy
 - UI Toolkit interface for food counter and game over panel
 
-## Additional Requirements (Section 7)
-
-- **Audio**: Background music via AudioSource on Main Camera; SFX using PlayOneShot() for player movement, wall attack, food pickup, enemy attack, enemy death, and game over
-- **Visual Effects**: ParticleSystem effects for wall destruction, food collection, and enemy death, controlled via .Play() in code
-- **Smooth Cell Movement**: Coroutine-based smooth movement that lerps objects between cells; input blocked during movement
-- **Object Pooling**: CellObjects (food, walls, enemies) are pre-instantiated in pools and recycled via SetActive(false/true) on level transitions
-- **Code Standards**: All Inspector-exposed fields use [SerializeField] on private variables; numeric tuning variables use [Range()] and [Tooltip()]
-
 ## Controls
 
 - **Arrow Keys**: Move player
